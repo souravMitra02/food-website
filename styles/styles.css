@@ -1,3 +1,34 @@
+.title{
+    color:orange;
+}
+#sub-title{
+    color: #757575;
+}
+h1{
+    font-size: 55px;
+}
+ ul{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color:rgb(79, 77, 77);
+    font-size: 30px;
+}
+a:hover{
+    background-color: #989897;
+    border-radius: 5px;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+li{
+    margin-bottom:200 ;
+}
+
 .container{
     display:grid;
     grid-template-columns: repeat(3,1fr);
@@ -21,14 +52,25 @@ p{
     text-align: center;
     box-shadow: 0 4px 10px rgb(96, 92, 92);
 }
+.food-cart:hover{
+    transform: translateY(-10px);
+
+}
 .food-cart img{
+    background-color: wheat;
     border: 5px solid white;
     border-radius: 20px;
     margin-top: 20px;
 }
-.btn-container{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
+.btn-explore{
+    padding: 10px 20px;
+    background-color: rgb(61, 245, 61);
+    font-size: 15px;
+    border-radius: 5px;
+}
+.btn-view{
+    padding: 10px 20px;
+    background-color:#FF9800;
+    font-size: 15px;
+    border-radius: 5px; 
 }
